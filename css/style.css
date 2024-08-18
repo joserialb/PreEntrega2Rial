@@ -1,0 +1,36 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  max-width: 100px; 
+}
+
+.footer-icon {
+  width: 60px; 
+  height: 60px; 
+  object-fit: cover;
+  transition: transform 0.3s; 
+}
+
+.footer-icon:hover {
+  transform: scale(1.1); 
+}
+
+figcaption {
+  font-size: 0.9rem; 
+}
+
+
+.text-center img {
+  display: block; 
+  margin: 0 auto; 
+}
